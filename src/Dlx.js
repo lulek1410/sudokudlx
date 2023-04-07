@@ -1,6 +1,6 @@
 import buildInternalStructure from "./InternalStructureBuilder.js";
 
-export default class Dlx {
+export class Dlx {
   solve(matrix, numOfSolutions = Number.MAX_SAFE_INTEGER) {
     let root = buildInternalStructure(matrix);
     let searchFn = this.#search(root);

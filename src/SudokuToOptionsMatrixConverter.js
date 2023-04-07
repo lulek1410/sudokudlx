@@ -1,4 +1,4 @@
-export default class SudokuToOptionsMatrixConverter {
+export class SudokuToOptionsMatrixConverter {
   static createOptionsMatrix(sudokuGrid) {
     const matrix = [];
     for (let row = 0; row < 9; ++row) {

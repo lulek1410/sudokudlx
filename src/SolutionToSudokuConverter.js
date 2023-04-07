@@ -1,4 +1,4 @@
-export default function convertSolutionToSudoku(optionsMatrix, solution) {
+export function convertSolutionToSudoku(optionsMatrix, solution) {
   const chosenOptions = [];
   for (const index of solution) {
     chosenOptions.push(optionsMatrix[index]);
