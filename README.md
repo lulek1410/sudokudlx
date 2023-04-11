@@ -35,9 +35,9 @@ const solution = dlx.solve(matrix)
 ### Solving sudoku
 
 ```
-import { Dlx } form "@lulek1410/sudokudlx"
-import { SudokuToOptionsMatrixConverter } form "@lulek1410/sudokudlx"
-import { convertSolutionToSudoku } form "@lulek1410/sudokudlx"
+import { Dlx } from "@lulek1410/sudokudlx"
+import { SudokuToOptionsMatrixConverter } from "@lulek1410/sudokudlx"
+import { convertSolutionToSudoku } from "@lulek1410/sudokudlx"
 
 const sudoku = [
   [4, 0, 0, 0, 0, 5, 0, 0, 7],
